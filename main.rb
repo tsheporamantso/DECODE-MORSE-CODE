@@ -27,3 +27,8 @@ CODE = {
   '--..' => 'z'
 
 }.freeze
+
+# Decode morse code character
+def decode_character(str)
+  CODE[str].upcase
+end
