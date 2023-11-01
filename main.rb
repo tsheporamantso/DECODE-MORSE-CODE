@@ -1,4 +1,4 @@
-CODE = {
+MORSE_CODE = {
   '.-' => 'A',
   '-...' => 'B',
   '-.-.' => 'C',
@@ -30,5 +30,5 @@ CODE = {
 
 # Decode morse code character
 def decode_character(str)
-  CODE[str]
+  MORSE_CODE[str]
 end
